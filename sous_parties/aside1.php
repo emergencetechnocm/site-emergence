@@ -3,7 +3,7 @@
             <!-- <h5 class="aside"> Nos derniers posts  </h5> -->
                 <?php
    
-        $bdd = new PDO('mysql:host=localhost;dbname=tuto;charset=utf8','root','');
+        $bdd = new PDO('mysql:host=localhost;dbname=taro0941_tuto;charset=utf8','taro0941_tuto','virgile2020');
          
         $articles = $bdd->query('SELECT titre FROM articles ORDER BY id DESC');
         if(isset($_GET['q']) AND !empty($_GET['q'])) {

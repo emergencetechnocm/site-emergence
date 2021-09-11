@@ -61,7 +61,7 @@ if (!empty($_POST)) {
          
          $_SESSION['flash']['success'] = 'Un email de confirmation vous a été envoyé pour valider votre compte';
     
-    header('Location:connexion.php');
+    header('Location: connexion.php');
     exit();
           
         } 
