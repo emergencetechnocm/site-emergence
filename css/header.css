@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jura:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Jura:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Goldman:wght@400;700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Goldman:wght@400;700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Goldman:wght@400;700&family=Poiret+One&family=Rakkas&display=swap');
+
+.bg-light {
+    background-color: #184a7b!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+	font-weight: 700;
+}
+
+
+/*     ce sont les liens pour les polices */
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jura:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Jura:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Goldman:wght@400;700&family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Goldman:wght@400;700&family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Goldman:wght@400;700&family=Poiret+One&family=Rakkas&display=swap" rel="stylesheet">
+/*  les règles d'écriture    */
+
+
+
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Jura', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Cookie', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Goldman', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Rakkas', cursive;
+
+
+
+
+
+
+
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+<i class="fa fa-bell" aria-hidden="true"></i>
+<i class="fa fa-bell-o" aria-hidden="true"></i>
+<i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+
+
+
+<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+<i class="fa fa-user-o" aria-hidden="true"></i>

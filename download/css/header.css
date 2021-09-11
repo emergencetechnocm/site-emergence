@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+
+.bg-light {
+    background-color: #184a7b!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+	font-weight: 700;
+}

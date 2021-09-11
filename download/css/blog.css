@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+
+html,body{
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	display: table;/*cette ligne est tres importante elle permet aux blocs ou div d'occuper toute l'espace reservé*/
+
+}
+.inner{
+	width: 95%;
+	margin: auto;
+}
+
+div#banniere{
+	
+	background:url("bibliotheque1.png")no-repeat left,url("bibliotheque2.png")no-repeat 360px 0px,
+	           url("bibliotheque3.png")no-repeat 720px 0px,url("bibliotheque1.png")no-repeat 1080px 0px;
+	display:table; 
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	                                
+margin-top:111px;
+height: 200px;
+border-radius: 5px;
+position: relative;
+box-shadow: 0px 4px 4px #1c1a19;
+margin-bottom: 5px;
+
+}
+ 
+ #banniere h2{
+	/*color: #FF9800;*/
+	color: yellow;
+	text-align: center;
+	padding:60px; 
+}
+
+
+/********************** les elements du contenu de la page d'accueil*****************/
+
+  
+
+/********************** les elements du contenu droit de la page d'accueil*****************/
+
+div#contenu-droit  {
+	        
+background:white ;
+      
+     border-radius: 5px;
+     border:groove;
+     float: right;  /***** cette ligne pousse le bloc a droite ******/
+}
+
+ div#contenu-droit div{
+ 	width: 100%;
+ 	height:auto;
+ 	position: relative;
+ }
+
+/*div#les_auteurs{
+     padding: 10px;
+     margin: 0px;
+ }
+  div#les_auteurs h6.noms_des_auteurs{
+text-align: center;
+  }
+
+div#les_auteurs img {
+    border-radius: 40px; 
+    margin-left: 30px;
+     margin-right: 30px;
+     
+   
+ }
+*/
+
+  
+ div#nous_joindre a{
+  margin-left: 40px;
+ 	
+ }
+
+ h5.aside{
+ 	text-align: center;
+ 	font-size: 20px;
+ 	font-weight: bold;
+
+ }
+p.parole{
+font-size: 12px;
+text-align: justify;
+}
+
+       /********************** les elements du contenu gauche de la page d'accueil*****************/
+
+div#contenu-gauche{
+	background:white;
+	width: 69.2%;  
+	border:groove;
+	 margin-left: 0px; 
+	 margin-right: 0px; 
+	 padding: 40px; 
+	 border-radius: 5px;
+	 float: left;/***** cette ligne pousse le bloc a gauche ******/
+}
+ 
+ div#contenu-gauche div{
+float: center;
+width: 100%;
+vertical-align: center;
+
+   }
+
+	
+ div#articles a.menu_articles{
+ 	text-align: center;
+ 	
+ }
+
+
+
+
+
+  div#articles img{
+ 	border-radius: 10px;
+     }
+ a.menu_articles:hover{
+	/*color:#14568C ;*/
+	background:#EEEEEE;
+	border-bottom: 2px groove;
+	text-decoration:none; 
+	padding-bottom:15px;
+	padding-right:5px;
+	border-radius:5px;
+	transition: 0.3s all;
+}
+
+.bienvenue{
+	color: white;
+}
+
+
+div#posts{
+	text-align: center;
+	float: center;
+}
+
+ div#posts a.article{
+	text-align: center;
+	float: center;
+}
+
+
+
+
+
+
+ 
+
+

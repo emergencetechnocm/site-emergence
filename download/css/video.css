@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+html,body{
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	display: table;/*cette ligne est tres importante elle permet aux blocs ou div d'occuper toute l'espace reservé*/
+
+}
+.inner{
+	width: 95%;
+	margin: auto;
+}
+
+div#banniere{
+	
+	background:url("composant_electronique1.png")no-repeat left,url("composant_electronique3.png")no-repeat 360px 0px,
+	           url("composant_electronique4.png")no-repeat 720px 0px,url("hightech.png")no-repeat 1080px 0px;
+	display:table; 
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	                                
+margin-top:111px;
+height: 200px;
+border-radius: 5px;
+position: relative;
+box-shadow: 0px 4px 4px #1c1a19;
+margin-bottom: 5px;
+
+}
+
+/********************** les elements du contenu de la page d'accueil*****************/
+
+
+/********************** les elements du contenu droit de la page d'accueil*****************/
+
+div#contenu-droit  {
+	background:white ;
+      
+     border-radius: 5px;
+     border:groove;
+     
+     /*float: right;*/  /***** cette ligne pousse le bloc a droite ******/
+}
+
+ div#contenu-droit div{
+ 	width: 100%;
+ 	height:auto;
+ 	position: relative;
+ }
+
+/*div#nos_derniers_posts a.article{
+	text-align: center;
+ 	padding: 10px;
+     margin: 0px;
+     color: #A63716;
+ }
+*/
+  
+ div#nous_joindre a{
+  margin-left: 60px;
+ 	
+ }
+
+ h5.aside{
+ 	text-align: center;
+ 	font-size: 20px;
+ 	font-weight: bold;
+
+ }
+p.parole{
+font-size: 12px;
+text-align: justify;
+}
+
+       /********************** les elements du contenu gauche de la page d'accueil*****************/
+
+div#contenu-gauche{
+	background:white; 
+	border:groove;
+	 margin-left: 0px; 
+	 margin-right:0px;
+
+	 padding:2px; 
+	 border-radius: 5px;
+	 float: left;/***** cette ligne pousse le bloc a gauche ******/
+}
+ 
+ .grand_titre{
+ 	text-align: center;
+ 	color:#A63716;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ }
+ p.presentation{
+ 	text-align: justify;
+ }
+.sous_titre{
+	text-align: center;
+	color:#03A9F4;
+}
+	
+ul.taches li{
+	text-align: justify;
+	margin-left: 10px; 
+}
+
+
+
+div#posts{
+	text-align: center;
+	float: center;
+}
+
+
+
+
+
+
+ 
+
+

@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+
+
+
+
+footer{
+	display: table-row;
+	/*background-color: #14568C;*/
+	background-color:#424558;
+	position: relative;
+	height:1px ;
+	width: 100%;
+}
+
+div#rubrique{
+	margin: auto;
+	width: 100%;
+	padding: 2px;
+	position: relative;
+}
+ div#rubrique div{
+ 	height: auto;
+ 	position: relative;
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin-left: 0px;
+ }
+
+div#contact{
+	border-right: solid;
+
+}
+
+.titre{
+	color: white;
+
+}
+
+div#service{
+
+}
+
+div#service ul li{
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+}
+
+div#startup{
+
+
+}
+div#articles{
+
+}
+
+div#copyright{
+	color: white;
+	text-align: center;
+	background-color:#424558;
+}
