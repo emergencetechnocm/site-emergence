@@ -38,7 +38,7 @@
     <!-- ************************NAVAR*************************** -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color:white; font-family: 'Cuprum', sans-serif;">
-  <a class="navbar-brand" href="#"><img src="images/logo.PNG " alt="logo" title=" le logo du site" width="85" style="display: inline-block;"><p style="display: inline-block;vertical-align:center; padding: 0; margin: 0; color:white; text-transform:uppercase;font-weight: 900;">le pôle de l'innovation</p></a>
+  <a class="navbar-brand" href="/"><img src="images/logo.PNG " alt="logo" title=" le logo du site" width="85" style="display: inline-block;"><p style="display: inline-block;vertical-align:center; padding: 0; margin: 0; color:white; text-transform:uppercase;font-weight: 900;">le pôle de l'innovation</p></a>
 
   <button class="navbar-toggler" style=" background-color: white;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

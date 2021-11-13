@@ -2,15 +2,14 @@
           <div id="posts" style="background-color:#F8F9F9"><br>
             <!-- <h5 class="aside"> Nos derniers posts  </h5> -->
                 <?php
-   
-        $bdd = new PDO('mysql:host=localhost;dbname=tuto;charset=utf8','root','');
+                require_once 'db.php';
          
-        $articles = $bdd->query('SELECT titre FROM articles ORDER BY id DESC');
+        $articles = $pdo->query('SELECT titre FROM articles ORDER BY id DESC');
         if(isset($_GET['q']) AND !empty($_GET['q'])) {
            $q = htmlspecialchars($_GET['q']);
-           $articles = $bdd->query('SELECT titre FROM articles WHERE titre LIKE "%'.$q.'%" ORDER BY id DESC');
+           $articles = $pdo->query('SELECT titre FROM articles WHERE titre LIKE "%'.$q.'%" ORDER BY id DESC');
            if($articles->rowCount() == 0) {
-              $articles = $bdd->query('SELECT titre FROM articles WHERE CONCAT(titre, contenu) LIKE "%'.$q.'%" ORDER BY id DESC');
+              $articles = $pdo->query('SELECT titre FROM articles WHERE CONCAT(titre, contenu) LIKE "%'.$q.'%" ORDER BY id DESC');
            }
         }
         ?>

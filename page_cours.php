@@ -41,14 +41,13 @@ margin-left:0px; margin-right:0px; padding:40px; border-radius: 5px;float: left;
 
           <button class="btn btn-secondary dropdown-toggle" type="button" id="deroulantb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="font-size:20px;">cours & TD</button>
           <div class="dropdown-menu" aria-labelledby="deroulanta">
-            <a class="dropdown-item" href="page_electronique_Analogique.php">Electronique Analogique  </a>
+            <a class="dropdown-item" href="page_electronique_analogique.php">Electronique Analogique  </a>
              <a class="dropdown-item" href="page_electronique_numérique.php">Electronique numerique  </a>
              <a class="dropdown-item" href="#">mathematiques</a>
             <!-- <a class="dropdown-item" href="#">Electrotechnque  </a>
             <a class="dropdown-item" href="#">informatique </a>
             <a class="dropdown-item" href="#">Automatique</a>
             <a class="dropdown-item" href="#">cours d'EPS</a> -->
-            
           </div>
         </div>
                  </div>
